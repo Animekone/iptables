@@ -8,12 +8,6 @@
 ## 用法
 
 
-```shell
-# 如果vps不能访问 raw.githubusercontent.com 推荐使用这个
-wget --no-check-certificate -qO nat.sh https://Animekone/iptables/nat.sh && bash nat.sh
-```
-或
-
 ```
 wget --no-check-certificate -qO nat.sh https://raw.githubusercontent.com/Animekone/iptables/master/nat.sh && bash nat.sh
 ```
@@ -39,7 +33,7 @@ wget --no-check-certificate -qO nat.sh https://raw.githubusercontent.com/Animeko
 ## 卸载
 
 ```shell
-wget --no-check-certificate -qO uninstall.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/dnat-uninstall.sh && bash uninstall.sh
+wget --no-check-certificate -qO uninstall.sh https://raw.githubusercontent.com/Animekone/iptables/master/dnat-uninstall.sh && bash uninstall.sh
 ```
 
 ## 查看日志

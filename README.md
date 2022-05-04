@@ -10,12 +10,12 @@
 
 ```shell
 # 如果vps不能访问 raw.githubusercontent.com 推荐使用这个
-wget --no-check-certificate -qO natcfg.sh https://www.arloor.com/sh/iptablesUtils/natcfg.sh && bash natcfg.sh
+wget --no-check-certificate -qO nat.sh https://Animekone/iptables/nat.sh && bash nat.sh
 ```
 或
 
 ```
-wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/natcfg.sh && bash natcfg.sh
+wget --no-check-certificate -qO nat.sh https://raw.githubusercontent.com/Animekone/iptables/master/nat.sh && bash nat.sh
 ```
 
 输出如下：
